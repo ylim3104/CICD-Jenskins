@@ -157,3 +157,8 @@ fatal: Could not read from remote repository.
     python -m pytest -v
     ```
     - Automate deployment steps (e.g., Docker or cloud deployment).
+```
+docker build -t sample-python-app .
+docker images
+docker run --rm sample-python-app
+```
