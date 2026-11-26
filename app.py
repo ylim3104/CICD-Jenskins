@@ -7,6 +7,7 @@ def multiply(a, b):
 
 def main():
     print("Hello, Jenkins!")
+    print("Made small changes")
 
 if __name__ == "__main__":
     main()
