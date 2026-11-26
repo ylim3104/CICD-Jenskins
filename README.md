@@ -150,6 +150,10 @@ fatal: Could not read from remote repository.
 - Enhance the Pipeline:
 
     - Automatically triggers a build  after each push to the repo via the webhook in github
+    ```
+    ngrok config add-authtoken <token>
+    ngrok http 8080 --url https://underfoot-arena-surplus.ngrok-free.dev 
+    ```
     - Add test scripts and run them in the Jenkins build and integrate tools like pytest or unittest for Python projects.
     ```
     python -m pip install -r requirements.txt
